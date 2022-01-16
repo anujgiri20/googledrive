@@ -1,23 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/header'
+import Sidebar from './components/sidebar'
+import FilesView from './components/filesView/FilesView'
+import SideIcons from './components/sideIcons'
+
+import GDriveLogo from './media/google-drive-logo.png'
+
+import { auth, provider } from "./firebase";
+import { useState } from 'react';
 
 function App() {
+  // const [user, setUser] = useState()
+  
+// userPhoto={user.photoURL}
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      
+      
+          <>
+            <Header  />
+            <div className="app__main">
+              <Sidebar />
+              <FilesView />
+            
+            </div>
+          </>
+      
     </div>
   );
 }

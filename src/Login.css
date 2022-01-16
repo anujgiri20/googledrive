@@ -1,0 +1,205 @@
+.mainlogindiv{
+ width:30%;
+  margin:100px;
+  margin:auto;
+}
+.google_img{
+  width:97%;
+}
+
+
+
+
+
+
+.button_{
+  color :#1a73e8;
+  cursor: pointer;
+  font-size: 1rem;
+ text-align: center;
+  margin-bottom:10px;
+  padding-bottom:50px;
+}
+.button_:hover{
+  color:blue;
+}
+
+
+.loginForm
+{  
+background-color:#f2f2f2 ;
+
+width:98%;
+margin:auto;
+
+
+border-radius: 20px;
+font-weight: bolder;
+
+margin-top:50px;
+
+border:0.3px solid transparent;
+position: relative;
+z-index: 1;
+border-radius: 5px;
+}
+
+ .inputlogin{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    margin:5px;
+    margin-left:0px;
+    width:80%;
+    height: 50px;
+    text-align: center;
+    margin-bottom:10px;
+    outline-color: #1a73e8;
+    border:1px solid transparent;
+    
+
+border-radius: 3px;
+margin-left:10%;
+background-color: white;
+}
+.inputlogin:hover{
+  background-color:white;
+}
+.headinglogin
+{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.029em;
+    font-weight: 900;
+    font-size: 3rem;
+    text-align: center;
+    
+}
+ .headinglogin1{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.029em;
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: 0.5rem;
+    text-align: center;
+    
+        background: url(https://i.gifer.com/7Pv.gif);
+        -webkit-background-clip: text; 
+        padding-bottom:50px;
+ }
+
+.p_tag{
+    color:white;
+    text-align: center;
+    font-weight: lighter;
+    margin-top:40px;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+.logindiv{
+ background-color:white;
+ 
+
+}
+.btn
+{
+  border:0px;
+  outline:0px;
+  background-color: #1a73e8;
+  padding:5px;
+  border-radius: 3px;
+  color:white;
+  height: 50px;
+  margin-bottom:50px;
+  font-size: 1rem;
+}
+.btn:hover{
+  border:0px;
+  outline:0px;
+  background-color: #1a73e8;
+  padding:5px;
+  border-radius: 3px; 
+  color:#1a73e8;
+  background-color: white;
+  height: 50px;
+  font-size: 1rem;
+}
+
+
+
+@media only screen and (max-width:1260px)
+{
+  .mainlogindiv{
+    width:80%;
+     margin:100px;
+     margin:auto;
+   }
+ 
+
+  .loginForm
+  {  
+  background-color:#f2f2f2 ;
+  
+  width:100%;
+  margin:auto;
+  
+  
+  border-radius: 20px;
+  font-weight: bolder;
+  
+  margin-top:20px;
+  
+  border:0.3px solid transparent;
+  position: relative;
+  z-index: 1;
+  border-radius: 5px;
+  }
+  .google_img{
+ display: none;
+ }
+ 
+
+}
+
+
+
+
+.carsoul_login{
+    background-color: transparent;
+ width:50%;
+ position: absolute;
+   z-index: 0;
+
+}
+
+.icon_icon{
+    width:15%;
+    margin:5px;
+}
+.icon_icon:hover{
+    background-color: tomato;
+}
+.icon_icon:hover{
+
+}
+.icon_div{
+    background-color: transparent;
+    padding-top:20px;
+    padding-bottom:20px;
+    border:1px solid white;
+    margin-top:20px;
+    transition: 2s;
+
+}
+
+
